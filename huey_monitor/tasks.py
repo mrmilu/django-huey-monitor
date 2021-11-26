@@ -8,7 +8,7 @@ import uuid
 from functools import lru_cache
 
 from django.db import transaction
-from huey.contrib.djhuey import on_startup, signal
+from huey_django import on_startup, signal
 
 from huey_monitor.models import SignalInfoModel, TaskModel
 
