@@ -39,6 +39,7 @@ django = "*"
 huey = "*"
 bx_py_utils = "*"  # https://github.com/boxine/bx_py_utils
 bx_django_utils = "*"  # https://github.com/boxine/bx_django_utils
+django-huey = "*" # https://github.com/gaiacoop/django-huey
 
 [tool.poetry.dev-dependencies]
 colorlog = "*"
