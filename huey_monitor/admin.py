@@ -111,13 +111,7 @@ class TaskModelAdmin(admin.ModelAdmin):
             'fields': (
                 'name',
                 'state',
-                'human_progress_string',
                 'signals'
-            )
-        }),
-        (_('Hierarchy'), {
-            'fields': (
-                'task_hierarchy_info',
             )
         }),
     )
